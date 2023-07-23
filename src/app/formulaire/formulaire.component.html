@@ -1,0 +1,18 @@
+<!-- <p>{{test}}</p> -->
+<form (ngSubmit)="onSubmit()">
+    <!-- Name input -->
+    <div class="form-outline mb-4">
+        <input type="text" id="form5Example1" class="form-control" [(ngModel)]="nom" required name="nom"/>
+        <label class="form-label" for="form5Example1">Name</label>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input type="email" id="form5Example2" class="form-control" [(ngModel)]="email" required email name="email" />
+        <label class="form-label" for="form5Example2">Email</label>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+</form>
+<br> <br> <br>
